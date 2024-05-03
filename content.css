@@ -1,0 +1,108 @@
+#aboutme {
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#aboutme > h1 {
+  color: var(--white);
+}
+#about-me-p {
+  width: 80%;
+  max-width: 50rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: rgb(204, 204, 204);
+}
+a#cv {
+  text-decoration: none;
+  color: var(--third-color);
+  border: 1px solid var(--third-color);
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+}
+a#cv:hover,
+a#cv:focus {
+  background-color: var(--third-color);
+  color: var(--main-color);
+}
+#cv:hover > #sub-pdf,
+#cv:active > #sub-pdf,
+#cv:focus > #sub-pdf {
+  color: rgb(0, 0, 0);
+}
+#mehdi-name {
+  color: var(--third-color);
+  font-weight: bold;
+}
+#contactme {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#contactme ul {
+  list-style: none;
+}
+#contactme a {
+  text-decoration: none;
+
+  margin: 2rem;
+  padding: 0;
+  width: 20rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  color: white;
+}
+#contactme div {
+  font-size: 120%;
+  font-weight: 400;
+}
+
+#contactme img {
+  height: 4rem;
+  width: 4rem;
+}
+#linkedin div {
+  color: white;
+}
+a#linkedin {
+  background-color: #0a66c2;
+  /* linkedin white */
+  transition: all 0.3s ease-in;
+}
+a#linkedin:hover {
+  box-shadow: 0px 3px 1px 0px aliceblue;
+  transform: translateY(-5px);
+}
+div#github {
+  color: var(--main-color);
+}
+a#github {
+  background-color: aliceblue;
+  transition: all 0.3s ease-in;
+}
+a#github:hover {
+  box-shadow: 0px 2px 1px 1px white;
+  transform: translateY(-5px);
+  border-bottom: 2px solid var(--main-color);
+}
+a#phone {
+  background-color: var(--third-color);
+  transition: all 0.3s ease-in;
+}
+div#phone {
+  color: var(--main-color);
+}
+a#phone:hover,
+a#phone:focus {
+  box-shadow: 0px 2px 1px 1px var(--third-color);
+  transform: translateY(-5px);
+  border-bottom: 2px solid var(--main-color);
+}
