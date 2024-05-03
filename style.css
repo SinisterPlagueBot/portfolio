@@ -209,8 +209,9 @@ body {
     opacity: 0;
     visibility: hidden;
   }
-  .brand-container {
-    margin-left: calc(20% - 3rem);
+  .navbar-container {
+    justify-content: start;
+    padding-left: 40%;
   }
 }
 .section-container {
