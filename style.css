@@ -24,11 +24,7 @@ html {
     font-size: 12px; /* 1rem = 12px */
   }
 }
-@media (max-height: 431px) {
-  html {
-    font-size: 10px; /* 1rem = 12px */
-  }
-}
+
 body {
   padding: 0;
   margin: 0;
@@ -213,6 +209,8 @@ body {
     justify-content: start;
     padding-left: 40%;
   }
+}
+@media (max-width: 1000px) {
 }
 .section-container {
   height: calc(100vh);
